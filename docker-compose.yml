@@ -1,0 +1,7 @@
+version: '3'
+services:
+  app:
+    build: .
+    environment:
+      - API_KEY=b6f5221855dd7432fcbb52b170b5f172
+    command: python3 getweatherdata.py
